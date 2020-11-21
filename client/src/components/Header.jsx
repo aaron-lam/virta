@@ -1,13 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Menu } from 'semantic-ui-react';
 
 const Header = () => (
-  <div className="ui secondary pointing menu">
-    <Link to="/" className="item">Twitch Clone</Link>
-    <div className="right menu">
-      <Link to="/" classname="item">All Streams</Link>
-    </div>
-  </div>
+  <Menu secondary>
+    <Menu.Item>
+      <Link to="/" className="item">
+        <img src="/logo192.png" alt="logo" />
+      </Link>
+    </Menu.Item>
+    <Menu.Menu position="right">
+      <Menu.Item>
+        <Link to="/" className="item">Twitch Clone</Link>
+      </Menu.Item>
+    </Menu.Menu>
+  </Menu>
 );
 
 export default Header;
