@@ -34,7 +34,6 @@ class GoogleAuth extends React.Component {
   }
 
   renderAuthButton() {
-    /* eslint-disable react/prop-types */
     const { isSignedIn } = this.props;
     if (isSignedIn == null) {
       return null;
