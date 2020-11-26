@@ -6,13 +6,13 @@ import StreamForm from './StreamForm';
 
 class StreamEdit extends React.Component {
   componentDidMount() {
-    const { match } = this.props;
-    this.props.fetchStream(match.params.id);
+    const { id } = this.props.match.params;
+    this.props.fetchStream(id);
   }
 
   onSubmit = (formValues) => {
-    const { match } = this.props;
-    this.props.editStream(match.params.id, formValues);
+    const { id } = this.props.match.params;
+    this.props.editStream(id, formValues);
   };
 
   render() {
