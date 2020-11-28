@@ -1,12 +1,12 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
-import StreamList from './streams/StreamList';
-import StreamCreate from './streams/StreamCreate';
-import StreamEdit from './streams/StreamEdit';
-import StreamDelete from './streams/StreamDelete';
-import StreamShow from './streams/StreamShow';
-import Header from './Header';
+import StreamList from './streams/stream-list';
+import StreamCreate from './streams/stream-create';
+import StreamEdit from './streams/stream-edit';
+import StreamDelete from './streams/stream-delete';
+import StreamShow from './streams/stream-show';
+import Header from './header';
 import history from '../history';
 
 const App = () => (

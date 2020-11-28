@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
-import GoogleAuth from './GoogleAuth';
+import GoogleAuth from './google-auth';
 
 const Header = () => (
   <Menu attached="top bottom" color="yellow" inverted borderless>

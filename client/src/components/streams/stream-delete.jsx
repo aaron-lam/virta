@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import ModalBasic from '../ModalBasic';
+import ModalBasic from '../modal-basic';
 import history from '../../history';
 import { fetchStream, deleteStream } from '../../actions';
 
@@ -33,7 +33,7 @@ class StreamDelete extends React.Component {
     if (!stream) {
       return 'Are you sure you want to delete this stream?';
     }
-    return `Are you sure you want to delete the stream with title: ${stream.title}`;
+    return `Are you sure you want to delete the stream with title: ${stream.title}?`;
   }
 
   render() {
