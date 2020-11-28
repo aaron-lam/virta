@@ -4,7 +4,7 @@ import { Menu } from 'semantic-ui-react';
 import GoogleAuth from './GoogleAuth';
 
 const Header = () => (
-  <Menu attached="top bottom" inverted borderless>
+  <Menu attached="top bottom" color="yellow" inverted borderless>
     <Menu.Item header>
       <Link to="/" className="item">
         <img src="/logo192.png" alt="logo" />
@@ -12,7 +12,7 @@ const Header = () => (
     </Menu.Item>
     <Menu.Menu position="right">
       <Menu.Item>
-        <Link to="/" className="item">Twitch Clone</Link>
+        <Link to="/" className="item">Virta</Link>
       </Menu.Item>
       <Menu.Item>
         <GoogleAuth />
