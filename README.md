@@ -1,12 +1,10 @@
 # Virta
 
-<div align="center">
-
-<img alt="Virta logo" src="https://user-images.githubusercontent.com/23665164/100492201-d63b1000-30de-11eb-8d01-aa90b15fdd36.png" width="400px" />
-
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-An open source video streaming application that built with React and Node.js.
+<div align="center">
+  <img alt="Virta logo" src="https://user-images.githubusercontent.com/23665164/100492201-d63b1000-30de-11eb-8d01-aa90b15fdd36.png" width="200px" />
+  <p>An open source video streaming application that built with React and Node.js</p>
 </div>
 
 ## Table of Contents
@@ -37,10 +35,6 @@ TBD
 ## Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/aaron-lam/virta/issues/new) or submit PRs.
-
-### Contributors
-
-This project exists thanks to all the people who contribute. 
 
 ## License
 
