@@ -3,10 +3,9 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 <div align="center">
-<img alt="Virta logo" src="https://user-images.githubusercontent.com/23665164/100492201-d63b1000-30de-11eb-8d01-aa90b15fdd36.png" width="200px" />
+  <img alt="Virta logo" src="https://user-images.githubusercontent.com/23665164/100492201-d63b1000-30de-11eb-8d01-aa90b15fdd36.png" width="200px" />
+  <p>An open source video streaming application that built with React and Node.js</p>
 </div>
-
-An open source video streaming application that built with React and Node.js
 
 ## Table of Contents
 
