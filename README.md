@@ -36,10 +36,6 @@ TBD
 
 Feel free to dive in! [Open an issue](https://github.com/aaron-lam/virta/issues/new) or submit PRs.
 
-### Contributors
-
-This project exists thanks to all the people who contribute. 
-
 ## License
 
 [MIT](LICENSE.md) © Aaron Lam
