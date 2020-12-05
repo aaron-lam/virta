@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Button, List } from 'semantic-ui-react';
+import { Card, Button, List } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { fetchStreams } from '../../actions';
 
@@ -25,17 +25,14 @@ class StreamList extends React.Component {
     return undefined;
   }
 
-  renderList = () => this.props.streams.map((stream) => (
-    <List.Item>
-      {this.renderAdmin(stream)}
-      <List.Icon name="camera" size="large" verticalAlign="middle" />
-      <List.Content>
-        <Link to={`/streams/${stream.id}`}>
-          <List.Header>{stream.title}</List.Header>
-        </Link>
-        <List.Description>{stream.description}</List.Description>
-      </List.Content>
-    </List.Item>
+  renderCards = () => this.props.streams.map((stream) => (
+    <Card
+      style={{ minWidth: 400 }}
+      image={stream.previewUrl}
+      header={stream.title}
+      description={stream.description}
+      extra={this.renderAdmin(stream)}
+    />
   ));
 
   renderCreate = () => {
@@ -56,9 +53,9 @@ class StreamList extends React.Component {
     return (
       <div>
         <h2>Streams</h2>
-        <List divided relaxed>
-          {this.renderList()}
-        </List>
+        <Card.Group>
+          {this.renderCards()}
+        </Card.Group>
         {this.renderCreate()}
       </div>
     );
