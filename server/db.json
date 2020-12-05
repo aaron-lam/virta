@@ -1,21 +1,24 @@
 {
   "streams": [
     {
-      "title": "My Stream",
-      "description": "A great stream",
-      "id": 1
+      "id": 1,
+      "title": "John's Stream",
+      "description": "Hey there. Welcome to my stream!",
+      "previewUrl": "https://www.talkesport.com/wp-content/uploads/Screenshot_1.jpg"
     },
     {
-      "title": "I created this stream",
-      "description": "This was made by me!",
+      "id": 2,
+      "title": "League of Legends Tournament 2021",
+      "description": "League of Legends tournament 2021 is live!",
       "userId": "117083574273849843965",
-      "id": 2
+      "previewUrl": "https://www.logicalincrements.com/assets/img/articles/streaming/Probelter-LoL.jpg"
     },
     {
-      "title": "ABC",
-      "description": "This is awesome!",
+      "id": 3,
+      "title": "Streaming Minecraft",
+      "description": "Playing Minecraft with my friends",
       "userId": "117083574273849843965",
-      "id": 3
+      "previewUrl": "https://i.ytimg.com/vi/cFsmqdjIKpk/maxresdefault.jpg"
     }
   ]
 }
